@@ -154,16 +154,16 @@ html {
 .winButtonClose__6396d:hover::after {
   opacity: 0.5;
 }
-[class^="winButtonMinMax-"]::after {
+[class^="winButtonMinMax_"]::after {
   background-color: #ffbd44;
 }
-[class^="winButtonMinMax-"]:hover::after {
+[class^="winButtonMinMax_"]:hover::after {
   opacity: 0.5;
 }
-[class^="winButtonMinMax-"]:last-child::after {
+[class^="winButtonMinMax_"]:last-child::after {
   background-color: #00ca4e;
 }
-[class^="winButtonMinMax-"]:last-child:hover::after {
+[class*="winButtonMinMax_"]:last-child:hover::after {
   opacity: 0.5;
 }
 
@@ -295,13 +295,13 @@ html {
 }
 
 /* Topbar Discord Logo */
-[class*="titleBar-"] > [class*="wordmark-"] {
+[class*="titleBar_"] > [class*="wordmark_"] {
   padding-left: 50% !important;
 }
 
 /* Remove Useless Buttons From Top Right */
-[class*="iconWrapper-"][aria-label="Inbox"],
-[class*="iconWrapper-"][aria-label="Help"] {
+[class*="iconWrapper_"][aria-label="Inbox"],
+[class*="iconWrapper_"][aria-label="Help"] {
   display: none !important;
 }
 
@@ -313,11 +313,11 @@ html {
 .messageListItem__050f9 > .mentioned_fa6fd2 {
   background-color: var(--mention-color) !important;
 }
-[class*="messageContent-"] > [class^="mention"][class*="wrapper-"] {
+[class*="messageContent_"] > [class^="mention"][class*="wrapper_"] {
   color: var(--mention-wrapper-text) !important;
   background: var(--mention-wrapper) !important;
 }
-[class*="messageContent-"] > [class^="mention"][class*="wrapper-"]:hover {
+[class*="messageContent_"] > [class^="mention"][class*="wrapper_"]:hover {
   filter: brightness(var(--mention-wrapper-hover));
 }
 
@@ -358,7 +358,7 @@ code {
 .toolbar__62fb5 > .iconWrapper_de6cd1 > .iconBadge__20a6b {
   margin-right: 22% !important;
 }
-[class^="container-"][aria-label*="Friends"] [class^="inviteToolbar-"] [class*="divider-"] {
+[class^="container_"][aria-label*="Friends"] [class^="inviteToolbar_"] [class*="divider_"] {
   display: none;
 }
 
@@ -403,17 +403,17 @@ code {
 }
 
 /* User Modal */
-[class^="userPopoutInner-"] [class*="eyebrow-"] {
+[class^="userPopoutInner_"] [class*="eyebrow_"] {
   display: none !important;
 }
-[class*="activity-"] > [class^="headerContainer-"],
-[class*="activity-"] > [class^="platformIcon-"] {
+[class*="activity_"] > [class^="headerContainer_"],
+[class*="activity_"] > [class^="platformIcon_"] {
   display: none !important;
 }
-[class*="textarea-"][aria-label="Note"]:focus {
+[class*="textarea_"][aria-label="Note"]:focus {
   height: 90px !important;
 }
-[class*="lastSection-"] > [class*="messageInputContainer-"] {
+[class*="lastSection_"] > [class*="messageInputContainer_"] {
   display: none !important;
 }
 .role_d81130 {
