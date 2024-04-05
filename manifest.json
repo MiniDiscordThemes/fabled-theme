@@ -16,5 +16,8 @@
   "type": "replugged-theme",
   "main": "src/fabled.css",
   "source": "https://github.com/Teltta/fabled-theme",
-  "image": "https://i.imgur.com/Akuk0Qp.png"
+  "image": [
+    "https://github.com/Teltta/fabled-theme/blob/master/assets/image.png?raw=true",
+    "https://github.com/Teltta/fabled-theme/blob/master/assets/image2.png?raw=true"
+  ]
 }
